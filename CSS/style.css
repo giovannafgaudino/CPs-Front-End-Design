@@ -1,0 +1,153 @@
+/* Estilizando */
+
+.navbar {
+    background-color: #1e1b54;
+    margin-top: 130px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navbar li {
+    margin: 0;
+    padding: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.in {
+    position: absolute;
+    margin-top: 56px;
+    padding: 40px 0;
+    background-color: rgb(50, 161, 156);
+    width: 100%;
+    text-align: center; 
+    font-size: 13.5px;
+    color: #f7f7f7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #b3b3b32f; 
+    position: relative;
+}
+
+section {
+    position: relative;
+    width: 100%;
+}
+
+.cab {
+    
+    text-align: center;
+    display: flex;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 370px;
+    font-family: monospace;
+    max-width: 1216px;
+    max-height: 49.36px;
+    justify-content: space-between;
+    
+}
+
+.bodi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#barra {
+    padding: 9.4px;
+    position: absolute;
+    margin-left: 10px;
+    left: 120px;
+    top: 0px;
+    background: #f7f7f7;         
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(167, 167, 167, 0.205);
+}
+
+.botao {
+    
+    display: flex;
+    margin-left: 330px;
+    padding: 4px 35px;
+    border-color: rgb(48, 170, 160);
+    background-color: rgb(48, 170, 160);
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border-style: solid;
+    cursor: pointer;
+    max-width: 152px;
+    max-height: 30.47px;
+    
+}
+
+.botaoPesquisa {
+    position: relative;
+}
+
+.inst {
+    max-height: 30px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 100%;
+    position: absolute;
+    margin-top: 76px;
+    width: 100%;
+}
+
+.span {
+    display: flex;
+    align-items: center;
+}
+
+.cont {
+    margin-top: 150px;
+    margin-left: 700px;
+}
+
+.tt1 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(15, 15, 15);
+}
+
+.portal2 {
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.tt2 {
+    margin-top: 10px;
+    max-width: 50%;
+    font-size: 15px;
+    color: rgb(90, 90, 90);
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
