@@ -1,3 +1,4 @@
+/* CSS Home e enfemagem */
 #page{
     display: grid;
     width: 100%;
@@ -136,7 +137,7 @@
 #page>corpo>txt2 {
     position:absolute;
     left: 15%;
-    top: 100%;
+    top: 110%;
     right: 15%;
     font-size: 19px;
     text-align: justify;
@@ -152,7 +153,7 @@
     color: white;
     background-color:#07074f;
     position: absolute;
-    top:220%;
+    top:250%;
     
 }
 
@@ -237,11 +238,3 @@ a{
     top: 65%;
 }
    
-@media(max-width:800px)   
-{
-    .body{
-        display: flex;
-        flex-direction: row;
-        background-color: chartreuse;
-    }
-}
